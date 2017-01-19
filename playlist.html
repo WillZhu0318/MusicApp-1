@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Exercise 1</title>
+    <!-- <<Mobile Viewport Code>> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="playlist.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar navbar-fixed-top" id="navbar-list"> 
+        <header>
+          <ul class="nav nav-tabs">
+            <li>
+              <button type="button">
+                <span class="glyphicon glyphicon-music" aria-hidden="true" id="navbarIcon"></span>
+                <span class="menu-text" id="navbarIconText">Library</span>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true" id="navbarIcon"></span>
+                <span class="menu-text2" id="navbarIconText">Playlists</span>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <span class="glyphicon glyphicon-search" aria-hidden="true" id="navbarIcon"></span>
+                <span class="menu-text" id="navbarIconText">Search</span>
+              </button>
+            </li>
+          </ul>
+        </header>
+      </div>
+
+      <div class="main-section">
+        <section class="Library" id="librarySection">
+          <h1>a</h1> 
+          <div class="btn-group" >
+            <ul>
+              <li>
+                <button type="button" class="btn btn-default">
+                  <span class="sort-by-artist">Sort by artist</span>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="btn btn-default">
+                  <span class="sort-by-title">Sort by title</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul class="button-lists">
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">SONG1</span>
+                    <span class="glyphicon glyphicon-plus-sign"></span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>  
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">SONG2</span>
+                    <span class="glyphicon glyphicon-plus-sign"></span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button> 
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="Playlists" id="playlistSection">
+          <h1>a</h1>      
+          <div class="btn-group" >
+            <button type="button" class="btn btn-default">
+              <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+              <span class="add-playlist">Playlist</span>
+            </button>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul class="button-lists">
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">90's Mega Mix</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>  
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">Smooth Jazz</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button> 
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">Electronic</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>  
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">Chill</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>  
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">Studying</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">2000's Mix</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">Favs</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">Relaxing Poolside</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="Search" id="searchSection">
+          <h1>a</h1> 
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+          </form>
+          <div class="row">
+            <div class="col-lg-6">
+              <!-- <ul class="button-lists">
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">search1</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>  
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">search2</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button> 
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">Electronic</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>  
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">Chill</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>  
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">Studying</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">2000's Mix</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">Favs</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button">
+                    <img src="grey_box.jpg" alt="image">
+                    <span class="list-name">Relaxing Poolside</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>
+                </li>
+              </ul> -->
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="musicApp.js"></script>
+  </body>
+</html>
