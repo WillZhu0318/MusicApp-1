@@ -1,0 +1,78 @@
+
+	* { margin: 0px; padding: 0px; box-sizing: border-box; }
+	html, body, div, span{ border: 0; font-family: inherit; font-size: 100%; font-weight: inherit; margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
+	figure, footer, header, menu, nav{ display: block; }
+	/*a { color:#acacac; }*/
+	/*.hide { display: none; }*/
+
+/* <<< Header >>> */
+	.container { width: 100%; padding: 0px; }
+	header { width: 100%; }
+
+/* <<< Navigation >>> */
+	.navbar { padding: 0px!important; margin: 0px!important; border-bottom-style: solid; border-bottom-color: #acacac; }
+	.navbar .nav-tabs { float: right; width: 100%; margin: auto; background-color: white; text-align: center; }
+	.navbar .nav-tabs ul { list-style: none; margin: auto; display:table; border: none; }
+	.navbar .nav-tabs li { width: 2%; display:table-cell; float: none; padding-top: 12px; padding-bottom: 11px; }
+	.navbar .nav-tabs button { background-color: transparent; border: none; color:#acacac; }
+	.navbar .nav-tabs .glyphicon { display: block; position: relative; font-size: 28px; bottom: 0; transition: 0.3s; color: #333; }
+	.navbar .nav-tabs .glyphicon-th-list { display: block; position: relative; font-size: 28px; bottom: 0; transition: 0.3s; color: #810082; }
+	.navbar .nav-tabs .menu-text2 { display: block; position: relative; font-size: 22px; bottom: 0; transition: 0.3s; color: #810082; }
+	.menu-text { display: block; position: relative; font-size: 22px; bottom: 0; transition: 0.3s; }
+
+
+	section { width: 100%; }
+	/* <<< Main Section >>> */
+	.main-section { width: 100%; margin: auto; text-align: center; position: relative; float: right; top: 83px; background-color: #e8e0f4; height: 100vh; }
+	.main-section .Playlists { float: right; width: 100%; position: relative; margin: auto; top: 0px; background-color: #e8e0f4; padding-left: 3%; padding-right: 3%; }
+	.main-section .Playlists .btn-group { float: right; width: 100%; margin: auto; padding-top: 10px; font-size: 0px; }
+	.main-section .Playlists .btn-group button { width: 100%; background-color: #936ac7!important; color: white!important; padding-top:10px!important; padding-bottom: 10px!important; border-radius: 10px!important; }
+	.main-section .Playlists h1 { margin: 0px; padding: 0px; color: transparent; font-size: 1px; }
+	.main-section .Playlists ul { margin: 0px; }
+	.main-section .Playlists li { display: table; width: 100%; }
+	.main-section .Playlists .row { margin: 0px; text-align: center; }
+	.main-section .Playlists .row .col-lg-6 { width: 100%; margin: auto; }
+	.main-section .Playlists .row .col-lg-6 button { background-color: transparent; border-color: transparent; display: table; font-size: 16px; width: 100%; height: 80px; cursor: pointer; border-bottom: solid 1px #acacac; }
+	.main-section .Playlists .row .col-lg-6 button:active { background-color: #8A2BE2; }
+	.main-section .Playlists .row .col-lg-6 img { border: solid 2px #acacac; background: #979797; height: 50px; width: 50px; float: left; margin: 0px; display: table-cell; }
+	.main-section .Playlists .row .col-lg-6 .list-name { color: #936ac7; font-size: 20px; display: table-cell; float: left; padding-left: 40px; padding-top: 10px; }
+	.main-section .Playlists .row .col-lg-6 .glyphicon { font-size: 28px; vertical-align: middle; color: #7f7f7f; display: table-cell; float: right; padding-right: 10px; padding-top: 10px; }
+
+	.main-section .Library { float: right; width: 100%; position: relative; margin: auto; top: 0px; background-color: #e8e0f4; padding-left: 3%; padding-right: 3%; display: none; }
+	.main-section .Library .btn-group { float: right; width: 100%; margin: auto; padding-top: 10px; font-size: 0px; }
+	.main-section .Library .btn-group li { display: inline-block; width: 45%; text-align: center; padding-left: 5%; padding-right: 5%; font-size: 16px; }
+	.main-section .Library .btn-group button { width: 100%; background-color: #936ac7!important; color: white!important; padding-top:10px!important; padding-bottom: 10px!important; border-radius: 10px!important; }
+	.main-section .Library h1 { margin: 0px; padding: 0px; color: transparent; font-size: 1px; }
+	.main-section .Library ul { margin: 0px; }
+	.main-section .Library .row { margin: 0px; text-align: center; }
+	.main-section .Library .row .col-lg-6 { width: 100%; margin: auto; }
+	.main-section .Library .row .col-lg-6 button { background-color: transparent; border-color: transparent; display: table; font-size: 16px; width: 100%; height: 80px; cursor: pointer; border-bottom: solid 1px #acacac; }
+	.main-section .Library .row .col-lg-6 button:active { background-color: #8A2BE2; }
+	.main-section .Library .row .col-lg-6 img { border: solid 2px #acacac; background: #979797; height: 50px; width: 50px; float: left; margin: 0px; display: table-cell; }
+	.main-section .Library .row .col-lg-6 .list-name { color: #936ac7; font-size: 20px; display: table-cell; float: left; padding-left: 40px; padding-top: 10px; }
+	.main-section .Library .row .col-lg-6 .glyphicon { font-size: 28px; vertical-align: middle; color: #7f7f7f; display: table-cell; float: right; padding-right: 5px; padding-top: 10px; }
+	.main-section .Library .row .col-lg-6 .button-lists li { display: table; width: 100%; }
+
+
+	.main-section .Search { float: right; width: 100%; position: relative; margin: auto; top: 0px; background-color: #e8e0f4; padding-left: 3%; padding-right: 3%; display: none; }
+	.main-section .Search .navbar-form { float: right; width: 100%; margin: auto; padding-top: 10px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; font-size: 0px; }
+	.main-section .Search .navbar-form .form-group { border-radius: 10px; width: 100%; }
+	.main-section .Search .navbar-form .form-group .form-control { background-color: #dcd9df; width: 100%; }
+	.main-section .Search h1 { margin: 0px; padding: 0px; color: transparent; font-size: 1px; }
+	.main-section .Search ul { margin: 0px; }
+	.main-section .Search li { display: table; width: 100%; }
+	.main-section .Search .row { margin: 0px; text-align: center; }
+	.main-section .Search .row .col-lg-6 { width: 100%; margin: auto; }
+	.main-section .Search .row .col-lg-6 button { background-color: transparent; border-color: transparent; display: table; font-size: 16px; width: 100%; height: 80px; cursor: pointer; border-bottom: solid 1px #acacac; }
+	.main-section .Search .row .col-lg-6 button:active { background-color: #8A2BE2; }
+	.main-section .Search .row .col-lg-6 img { border: solid 2px #acacac; background: #979797; height: 50px; width: 50px; float: left; margin: 0px; display: table-cell; }
+	.main-section .Search .row .col-lg-6 .list-name { color: #936ac7; font-size: 20px; display: table-cell; float: left; padding-left: 40px; padding-top: 10px; }
+	.main-section .Search .row .col-lg-6 .glyphicon { font-size: 28px; vertical-align: middle; color: #7f7f7f; display: table-cell; float: right; padding-right: 10px; padding-top: 10px; }
+
+.songs, .playlists, .search {
+    display: none;
+}
+
+.active {
+  display: block;
+}
